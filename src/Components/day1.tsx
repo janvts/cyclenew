@@ -160,13 +160,13 @@ function Day1(props: DayProps) {
                 weekExerciseMain = "Back Squat";
                 weekSetsMain = "3";
                 weekRepsMain = "2";
-                weekLoadPercentMain = "plus 5kg";
-                weekLoadkgMain = String(valuekg1-30);
+                weekLoadPercentMain = "minus 30";
+                weekLoadkgMain = String(Number(props.kilogramm)-30);
                 weekExerciseA1 = "Back Squat";
                 weekSetsA1 = "3";
                 weekRepsA1 = "1";
-                weekLoadPercentA1 = "-";
-                weekLoadkgA1 = "-";
+                weekLoadPercentA1 = "minus 10";
+                weekLoadkgA1 = String(Number(props.kilogramm)-10);
                 weekExerciseA2 = "-";
                 weekSetsA2 = "-";
                 weekRepsA2 = "-";

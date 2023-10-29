@@ -80,10 +80,10 @@ function  Day2(props : DayProps) {
             break;
         case 8:
             weekExercise = 'Back Squat';
-            weekSets = String(2) +"->"+ String(2)+ "->"+ String(1);
-            weekReps =  String(2) +"->"+ String(2)+ "->"+ String(1);
-            weekLoadPercent = "Base -25 --> Base -15  --> Base";
-            weekLoadKg = String(valuekg1-25) + "kg" + "-->"  + String(valuekg1-15) + "kg"  + "-->" + String(valuekg1-25) + "kg";
+            weekSets = String(2) +","+ String(2)+ ","+ String(1);
+            weekReps =  String(2) +","+ String(2)+ ","+ String(1);
+            weekLoadPercent = "Base -25, Base -15, Base";
+            weekLoadKg = String(Number(props.kilogramm)-25) + "kg" + ","  + String(Number(props.kilogramm)-15) + "kg"  + "," + String(Number(props.kilogramm)) + "kg";
 
     }
 
