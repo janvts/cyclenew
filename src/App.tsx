@@ -5,9 +5,11 @@ import ListComponent from './Components/list';
 
 function App() {
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [secured, setSecured] = useState(false);
     const [kilogramm, setKilogramm] = useState<string>('0');
     const [realValue, setRealValue] = useState<string>('180');
     const stringRef = useRef('180');
+    const passwordRef = useRef("initial")
 
     useEffect(() => {
         if(localStorage.getItem("saved") !== null){
@@ -16,6 +18,11 @@ function App() {
             if(value !== null) {
                 setRealValue(value)
             }
+        }
+        if(localStorage.getItem("password")== "Backsquat"){
+            setSecured(false)
+        }else{
+            setSecured(true)
         }
     }, []);
 
@@ -30,6 +37,15 @@ function App() {
         setIsModalOpen(false);
     };
 
+    const handlePassword=() =>{
+
+        if(passwordRef.current === "Backsquat") {
+            localStorage.setItem('password', passwordRef.current);
+            setSecured(false);
+        }
+
+    }
+
     const handleCancel = () => {
         setIsModalOpen(false);
     };
@@ -38,6 +54,10 @@ function App() {
         console.log(event.target.value)
         stringRef.current = event.target.value.toString()
     };
+
+    const handlePasswordChange = (event: any) => {
+        passwordRef.current = event.target.value.toString()
+    }
 
     function ChangeKG() {
         return (
@@ -72,6 +92,19 @@ function App() {
         <div>
             <ListComponent kilogramm={realValue} />
             <ChangeKG />
+            <Modal
+                title="Security Check"
+                open={secured}
+                onOk={handlePassword}
+                width={window.innerWidth}
+            >
+                <Form>
+                    <Form.Item label="Enter Password">
+                        <Input type="text"  onChange={handlePasswordChange} />
+                    </Form.Item>
+                    This App is exclusive for Tim only. Any other use is strictly forbidden!
+                </Form>
+            </Modal>
         </div>
     );
 }
