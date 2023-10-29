@@ -52,16 +52,16 @@ function App() {
                     }}
                 />
                 <Modal
-                    title="Create an exclusive save slot!"
+                    title="Hello Tim!"
                     open={isModalOpen}
                     onOk={handleOk}
                     onCancel={handleCancel}
                 >
                     <Form>
-                        <Form.Item label="Give it a name:">
+                        <Form.Item label="Type in your weight:">
                             <Input type="text"  onChange={handleUsernameChange} />
                         </Form.Item>
-                        Temporal save slots are accessible for everyone; this one is exclusive.
+                        This App is exclusive for Tim only. Any other use is strictly forbidden!
                     </Form>
                 </Modal>
             </>

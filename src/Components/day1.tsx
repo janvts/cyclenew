@@ -155,6 +155,24 @@ function Day1(props: DayProps) {
                 weekLoadPercentA2 = "20kg Kbell each hand for FFRSS's's, 10kg Medball for WGHDSU's";
                 weekLoadkgA2 = "-";
                 break;
+            case 8:
+                weekKey = "8";
+                weekExerciseMain = "Back Squat";
+                weekSetsMain = "3";
+                weekRepsMain = "2";
+                weekLoadPercentMain = "plus 5kg";
+                weekLoadkgMain = String(valuekg1-30);
+                weekExerciseA1 = "Back Squat";
+                weekSetsA1 = "3";
+                weekRepsA1 = "1";
+                weekLoadPercentA1 = "-";
+                weekLoadkgA1 = "-";
+                weekExerciseA2 = "-";
+                weekSetsA2 = "-";
+                weekRepsA2 = "-";
+                weekLoadPercentA2 = "-";
+                weekLoadkgA2 = "-";
+                break;
             default:
     }
     const columns: ColumnsType<DataType> = [
