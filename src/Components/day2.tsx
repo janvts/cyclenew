@@ -11,9 +11,8 @@ interface DataType {
     loadkg:  string;
 }
 
-const mainvalue:  number = 180
-const percentage2: number = 70
-const valuekg2:number = (mainvalue/100)*percentage2
+
+
 
 interface DayProps {
     week: string;
@@ -25,7 +24,9 @@ function  Day2(props : DayProps) {
     let weekExercise,weekSets, weekReps, weekLoadPercent, weekLoadKg;
 
     const percentage2: number = 70
+    const percentage1: number = 65
     const valuekg2:number = (Number(props.kilogramm)/100)*percentage2
+    const valuekg1:  number = (Number(props.kilogramm)/100)*percentage1
 
     switch(Number(props.week)) {
         case 1:
@@ -61,21 +62,21 @@ function  Day2(props : DayProps) {
             weekSets = String(5);
             weekReps = String(5);
             weekLoadPercent = "plus 10kg";
-            weekLoadKg = String(valuekg2+40) + "kg";
+            weekLoadKg = String(valuekg1+50) + "kg";
             break;
         case 6:
             weekExercise = 'Back Squat';
             weekSets = String(5);
             weekReps = String(5);
             weekLoadPercent = "plus 5kg";
-            weekLoadKg = String(valuekg2+45) + "kg";
+            weekLoadKg = String(valuekg1+55) + "kg";
             break;
         case 7:
             weekExercise = 'Back Squat';
             weekSets = String(5);
             weekReps = String(3);
             weekLoadPercent = "plus 10kg";
-            weekLoadKg = String(valuekg2+55) + "kg";
+            weekLoadKg = String(valuekg1+65) + "kg";
             break;
 
 

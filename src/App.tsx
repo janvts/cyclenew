@@ -24,10 +24,9 @@ function App() {
     };
 
     const handleOk = () => {
-        if (stringRef.current !== "180") {
-            localStorage.setItem('saved', stringRef.current);
-            setRealValue(stringRef.current);
-        }
+        localStorage.setItem('saved', stringRef.current);
+        setRealValue(stringRef.current);
+
         setIsModalOpen(false);
     };
 
