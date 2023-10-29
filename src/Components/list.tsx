@@ -53,7 +53,7 @@ function ListComponent(props:  ListProps) {
         {
             key: '8',
             label: 'Woche 8',
-            children: <Week week={"0"} kilogramm={props.kilogramm}/>,
+            children: <Week week={"8"} kilogramm={props.kilogramm}/>,
         },
     ];
 

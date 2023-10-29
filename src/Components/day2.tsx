@@ -52,22 +52,22 @@ function  Day2(props : DayProps) {
             break;
         case 4:
             weekExercise = 'Back Squat';
-            weekSets = String(6);
+            weekSets = String(3);
             weekReps = String(4);
             weekLoadPercent = "plus 10kg";
             weekLoadKg = String(valuekg2+30) + "kg";
             break;
         case 5:
             weekExercise = 'Back Squat';
-            weekSets = String(5);
-            weekReps = String(5);
+            weekSets = String(3);
+            weekReps = String(3);
             weekLoadPercent = "plus 10kg";
             weekLoadKg = String(valuekg1+50) + "kg";
             break;
         case 6:
             weekExercise = 'Back Squat';
             weekSets = String(5);
-            weekReps = String(5);
+            weekReps = String(3);
             weekLoadPercent = "plus 5kg";
             weekLoadKg = String(valuekg1+55) + "kg";
             break;
