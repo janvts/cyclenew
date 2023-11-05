@@ -77,7 +77,7 @@ function Day1(props: DayProps) {
                 weekRepsA1 = "5+15es";
                 weekLoadPercentA1 = "10sec hold on each of the QSPHC's, Body weight only for SPLLR's";
                 weekLoadkgA1 = "-";
-                weekExerciseA2 = "Frontfootraised Split Squats + GHD Situps";
+                weekExerciseA2 = "Frontfootraised Split Squats + Toe to Bars";
                 weekSetsA2 = "4";
                 weekRepsA2 = "10es+10";
                 weekLoadPercentA2 = "16kg KBell in each hand for FFRSS's and Frontfoot on two 20kg bumperplates, Bodyweight only for GHDSU's";
@@ -95,7 +95,7 @@ function Day1(props: DayProps) {
                 weekRepsA1 = "5+2es";
                 weekLoadPercentA1 = "15sec hold on each of the QSPHC's, 20secs per hold for SLMP's";
                 weekLoadkgA1 = "-";
-                weekExerciseA2 = "Frontrack Reverse Lunges + Weighted GHD Situps";
+                weekExerciseA2 = "Frontrack Reverse Lunges + Weighted Toe to Bars";
                 weekSetsA2 = "4";
                 weekRepsA2 = "8es+10";
                 weekLoadPercentA2 = "40kg for RL's, 10kg Medball for WGHDSU's";
@@ -113,7 +113,7 @@ function Day1(props: DayProps) {
                 weekRepsA1 = "8es+2es";
                 weekLoadPercentA1 = "very light band for SPBLLR's, 20secs per hold for SLMP's";
                 weekLoadkgA1 = "-";
-                weekExerciseA2 = "Frontrack Reverse Lunges + Weighted GHD Situps";
+                weekExerciseA2 = "Frontrack Reverse Lunges + Weighted Toe to Bars";
                 weekSetsA2 = "4";
                 weekRepsA2 = "10es+12";
                 weekLoadPercentA2 = "45kg+ for RL's, 10kg Medball for WGHDSU's";
@@ -131,7 +131,7 @@ function Day1(props: DayProps) {
                 weekRepsA1 = "8+15";
                 weekLoadPercentA1 = "very light band for SPBLLR's, 24kg Kbell for GWHC's";
                 weekLoadkgA1 = "-";
-                weekExerciseA2 = "Frontrack Reverse Lunges + Weighted GHD Situps";
+                weekExerciseA2 = "Frontrack Reverse Lunges + Weighted Toe to Bars";
                 weekSetsA2 = "4";
                 weekRepsA2 = "10es+12";
                 weekLoadPercentA2 = "45kg+ for RL's, 10kg Medball for WGHDSU's";
@@ -149,7 +149,7 @@ function Day1(props: DayProps) {
                 weekRepsA1 = "1+15";
                 weekLoadPercentA1 = "accumulate 90sec per round of plank hold, 24kg Kbell for GWHC's";
                 weekLoadkgA1 = "-";
-                weekExerciseA2 = "Frontfoot Raised Splitsquats + Weighted GHD Situps";
+                weekExerciseA2 = "Frontfoot Raised Splitsquats + Weighted Toe to Bars";
                 weekSetsA2 = "4";
                 weekRepsA2 = "10es+15";
                 weekLoadPercentA2 = "20kg Kbell each hand for FFRSS's's, 10kg Medball for WGHDSU's";
